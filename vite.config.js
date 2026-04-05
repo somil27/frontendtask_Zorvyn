@@ -1,6 +1,6 @@
 import { defineConfig } from 'vite'
-import reactOxc from '@vitejs/plugin-react-oxc'
+import react from '@vitejs/plugin-react'
 
 export default defineConfig({
-  plugins: [reactOxc()],
+  plugins: [react()],
 })
